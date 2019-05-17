@@ -12,3 +12,9 @@ Tech of mongodb insert and json/cvs/text convertion
 with labmda to skip rows function in cvs read.
 
 update the mongodb(),use update_many()
+
+
+## Mongodb query
+Find a column with exsiting value:
+```
+{"Driver First Name":{ $exists: true } }
